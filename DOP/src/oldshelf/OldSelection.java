@@ -2,7 +2,7 @@ package oldshelf;
 
 public class OldSelection {
 
-	// TODO: Complete this method.
+	// DONE: Complete this method.
 	/**
 	 * 
 	 * @param o object
@@ -18,14 +18,14 @@ public class OldSelection {
 			return f.getName();
 		}
 		if( o instanceof TextBook t){
-			return t.getSubject();
+			return t.subject();
 		}
 		return "";
 	}
 
 	public static void main(String[] args) {
 
-		// TODO: Write a test code here and execute and text.
+		// DONE: Write a test code here and execute and text.
 		TextBook t = new TextBook("Physics");
 
 		System.out.println(OldSelection.getAgeOrTitle(t));

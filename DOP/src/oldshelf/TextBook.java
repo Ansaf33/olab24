@@ -12,18 +12,26 @@ public class TextBook extends Book {
 	}
 
 	// DONE : create a getter if required.
-	public String getSubject() {
+	public String subject() {
 		return subject;
 	}
-	
+
+	@Override
+	public final int hashCode(){
+		return this.hashCode();
+	}
+
+	@Override
+	public final boolean equals(Object o){
+		return this==o;
+	}
 	
 	
 	
 	// DONE: write a toString method
 	@Override
-	public String toString() {
-		String s = "Subject : " + this.subject;
-		return s;
+	public final String toString() {
+		return "Subject : " + this.subject;
 	}
 
 
