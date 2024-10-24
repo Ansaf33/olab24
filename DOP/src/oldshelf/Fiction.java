@@ -2,8 +2,8 @@ package oldshelf;
 
 public class Fiction extends Book {
 
-	/* TODO: Add most strict modifiers here*/ private final String name;
-	// TODO: change 
+	/* DONE: Add most strict modifiers here*/ private final String name;
+	// DONE: change 
 	/**
 	 * type is  a per instance object and it is initialized only once.
 	 * 
@@ -13,7 +13,7 @@ public class Fiction extends Book {
 		
 		this.name = name;
 		Fiction.type = f;
-		// TODO  correct the above.
+		// DONE  correct the above.
 	}
 
 	public String getName() {
